@@ -1,0 +1,184 @@
+{
+  "start": {
+    "response": "MedicineBot: Hello! I'm MedBot. What is your name?",
+    "options": {}
+  },
+  "user_name": {
+    "response": "MedicineBot: Nice to meet you, [user_name]! What symptoms are you facing?",
+    "options": {
+      "Runny nose": "runny_nose",
+      "Sweating": "sweating",
+      "Increased hunger": "increased_hunger",
+      "Hopeless outlook": "hopeless_outlook",
+      "Coughing": "coughing",
+      "Itching": "itching",
+      "Shortness of breath": "shortness_of_breath"
+    }
+  },
+  "runny_nose": {
+    "response": "MedicineBot: You mentioned having a runny nose. Please choose more symptoms:",
+    "options": {
+      "Sore throat": "sore_throat",
+      "Chills and shivering": "chills_shivering"
+    }
+  },
+  "sweating": {
+    "response": "MedicineBot: You mentioned sweating. Please choose more symptoms:",
+    "options": {
+      "Chills and shivering": "chills_shivering",
+      "Sleep problem": "sleep_problem"
+    }
+  },
+  "increased_hunger": {
+    "response": "MedicineBot: You mentioned having increased hunger. Please choose more symptoms:",
+    "options": {
+      "Increase thirst": "increase_thirst",
+      "Blurry vision": "blurry_vision"
+    }
+  },
+  "sore_throat": {
+    "response": "MedicineBot: It appears you have a sore throat. You might be experiencing common cold symptoms. Would you like to know more about this or consult a doctor?",
+    "options": {
+      "Common Cold Symptoms": "common_cold_symptoms",
+      "Consultation": "consultation"
+    }
+  },
+  "common_cold_symptoms": {
+    "response": "MedicineBot: Common cold symptoms include runny nose, sore throat, cough, congestion, slight body aches, sneezing, low-grade fever, and a general feeling of unwell (malaise)."
+  },
+  "consultation": {
+    "response": "MedicineBot: You can contact various doctors here for any kind of consultation: 1. [Link 1], 2. [Link 2], 3. [Link 3], or you can visit your local area doctor or family doctor."
+  },
+  "chills_shivering": {
+    "response": "MedicineBot: You are experiencing chills and shivering. It might indicate fever symptoms. Do you want to know more about prevention or consult a doctor?",
+    "options": {
+      "Fever Symptoms": "fever_symptoms",
+      "Consultation_fever": "consultation_fever"
+    }
+  },
+  "fever_symptoms": {
+    "response": "MedicineBot: Fever symptoms include sweating, chills and shivering, headache, muscle aches, loss of appetite, irritability, dehydration, and general weakness.",
+    "options": {
+      "Consultation_fever": "consultation_fever"
+    }
+  },
+  "consultation_fever": {
+    "response": "MedicineBot: You can contact various doctors here for any kind of consultation: 1. [Link 1], 2. [Link 2], 3. [Link 3], or you can visit your local area doctor or family doctor."
+  },
+  "increase_thirst": {
+    "response": "MedicineBot: You mentioned increased thirst. This may be a symptom of various conditions, including diabetes. Do you want more information or consult a doctor?",
+    "options": {
+      "Diabetes Symptoms": "diabetes_symptoms",
+      "Consultation_diabetes": "consultation_diabetes"
+    }
+  },
+  "diabetes_symptoms": {
+    "response": "MedicineBot: Diabetes symptoms include increased hunger, increased thirst, weight loss, frequent urination, blurry vision, and extreme fatigue.",
+    "options": {
+      "Consultation_diabetes": "consultation_diabetes"
+    }
+  },
+  "consultation_diabetes": {
+    "response": "MedicineBot: You can contact various doctors here for any kind of consultation regarding diabetes: 1. [Link 1], 2. [Link 2], 3. [Link 3], or you can visit your local area doctor or family doctor."
+  },
+  "blurry_vision": {
+    "response": "MedicineBot: You mentioned blurry vision. This may be associated with various health conditions, including diabetes. Do you want more information or consult a doctor?",
+    "options": {
+      "Diabetes Symptoms": "diabetes_symptoms",
+      "Consultation_diabetes": "consultation_diabetes"
+    }
+  },
+  "hopeless_outlook": {
+    "response": "MedicineBot: You mentioned a hopeless outlook. This might be a symptom of depression. Do you want more information or consult a doctor?",
+    "options": {
+      "Depression Symptoms": "depression_symptoms",
+      "Consultation_depression": "consultation_depression"
+    }
+  },
+  "depression_symptoms": {
+    "response": "MedicineBot: Depression symptoms include a hopeless outlook, lost interest, increased fatigue, sleep problems, anxiety, change in weight, and thoughts of death.",
+    "options": {
+      "Consultation_depression": "consultation_depression"
+    }
+  },
+  "consultation_depression": {
+    "response": "MedicineBot: You can contact various doctors here for any kind of consultation regarding depression: 1. [Link 1], 2. [Link 2], 3. [Link 3], or you can visit your local area doctor or family doctor."
+  },
+  "itching": {
+    "response": "MedicineBot: You mentioned itching. It could be due to various reasons, including allergies or skin conditions. Do you want more information or consult a doctor?",
+    "options": {
+      "Skin Conditions": "skin_conditions",
+      "Consultation_skin": "consultation_skin"
+    }
+  },
+  "skin_conditions": {
+    "response": "MedicineBot: Itching can be associated with various skin conditions, including allergies, eczema, or dermatitis.",
+    "options": {
+      "Consultation_skin": "consultation_skin"
+    }
+  },
+  "consultation_skin": {
+    "response": "MedicineBot: You can contact dermatologists or skin specialists for consultation: 1. [Link 1], 2. [Link 2], 3. [Link 3], or you can visit your local area dermatologist."
+  },
+  "coughing": {
+    "response": "MedicineBot: You mentioned coughing. It could be a symptom of various conditions, including respiratory issues or asthma. Do you want more information or consult a doctor?",
+    "options": {
+      "Asthma Symptoms": "asthma_symptoms",
+      "Consultation_asthma": "consultation_asthma"
+    }
+  },
+  "asthma_symptoms": {
+    "response": "MedicineBot: You mentioned coughing. It could be a symptom of various conditions, including respiratory issues or asthma. Do you want more information or consult a doctor?",
+    "options": {
+      "Shortness of breath": "shortness_of_breath",
+      "Tightness in the chest": "tightness_in_chest",
+      "Difficulty talking": "difficulty_talking",
+      "Panic": "panic",
+      "Fatigue": "fatigue"
+    }
+  },
+  "shortness_of_breath": {
+    "response": "MedicineBot: Shortness of breath is a common symptom of asthma. It can be triggered by various factors. Would you like to know more about managing asthma or consult a doctor?",
+    "options": {
+      "Managing Asthma": "managing_asthma",
+      "Consultation_asthma": "consultation_asthma"
+    }
+  },
+  "managing_asthma": {
+    "response": "MedicineBot: Managing asthma involves avoiding triggers, taking prescribed medications, and having a written asthma action plan. It's essential to consult with a healthcare professional for personalized advice."
+  },
+  "consultation_asthma": {
+    "response": "MedicineBot: You can contact pulmonologists or asthma specialists for consultation: 1. [Link 1], 2. [Link 2], 3. [Link 3], or you can visit your local area pulmonologist."
+  },
+  "tightness_in_chest": {
+    "response": "MedicineBot: Tightness in the chest can be a concerning symptom, especially if related to respiratory issues like asthma. Do you want more information or consult a doctor?",
+    "options": {
+      "Asthma Information": "asthma_information",
+      "Consultation_asthma": "consultation_asthma"
+    }
+  },
+  "asthma_information": {
+    "response": "MedicineBot: Asthma is a chronic respiratory condition that can cause symptoms like coughing, shortness of breath, chest tightness, and wheezing. Proper management is crucial for a healthy lifestyle."
+  },
+  "difficulty_talking": {
+    "response": "MedicineBot: Difficulty talking can be a concerning symptom, and it might be related to respiratory issues. Do you want more information or consult a doctor?",
+    "options": {
+      "Asthma Information": "asthma_information",
+      "Consultation_asthma": "consultation_asthma"
+    }
+  },
+  "panic": {
+    "response": "MedicineBot: Panic can sometimes accompany respiratory symptoms. It's important to address the underlying cause. Do you want more information or consult a doctor?",
+    "options": {
+      "Asthma Information": "asthma_information",
+      "Consultation_asthma": "consultation_asthma"
+    }
+  },
+  "fatigue": {
+    "response": "MedicineBot: Fatigue can be associated with various health conditions. If it's related to asthma or respiratory issues, managing the underlying cause is important. Do you want more information or consult a doctor?",
+    "options": {
+      "Asthma Information": "asthma_information",
+      "Consultation_asthma": "consultation_asthma"
+    }
+  }
+}
